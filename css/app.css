@@ -21638,6 +21638,14 @@ video {
           animation: bounce 1s infinite;
 }
 
+body {
+  font-family: 'Khula', sans-serif;
+}
+
+body p {
+  font-family: 'Homemade Apple', cursive;
+}
+
 @media (min-width: 640px) {
   .sm\:container {
     width: 100%;

@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+body {
+    font-family: 'Khula', sans-serif;
+}
+
+body p {
+    font-family: 'Homemade Apple', cursive;
+}
