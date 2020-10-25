@@ -10,11 +10,12 @@
 </head>
 
 <body>
-    <nav class="md:flex md:flex-row md:justify-around md:py-6">
-        <div class="flex justify-between px-4 py-4 md:p-0 md:m-0 lg:w-1/4">
-            <p class="logo text-lg">Lovery</p>
-            <div class="md:hidden">
-                <button type="button" class="burger block text-gray-500 hover:text-gray-800 focus:text-gray-800 focus:outline-none ">
+    <header class="flex h-screen flex-col">
+        <nav class=" md:flex md:flex-row md:justify-around md:py-6">
+            <div class="flex justify-between px-4 py-4 md:p-0 md:m-0 lg:w-1/4">
+                <p class="logo text-lg">Lovery</p>
+                <div class="md:hidden">
+                    <button type="button" class="burger block text-gray-500 hover:text-gray-800 focus:text-gray-800 focus:outline-none ">
                 <svg class="h-6 w-6 fill-current" viewBox="0 0 24 24">
                   <path fill-rule="evenodd" d="M4 5h16a1 1 0 0 1 0 2H4a1 1 0 1 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2z"/>
                 </svg>
@@ -28,12 +29,12 @@
                 <li class="my-1 px-2 py-1 rounded hover:bg-gray-300  md:m-0"><a href="#">Blogs</a></li>
             </ul>
             <button class=" md:w-auto w-full px-2 bg-transparent hover:bg-orange-500 text-orange-500 hover:text-white py-1 px-4 border border-orange-500 hover:border-transparent rounded">GIFT FINDER</button>
-            </div>
-    </nav>
-    <header>
-        <img class="object-cover w-screen h-screen-40" src="img/img-1.png" alt="">
-        <section class="bg-gray-300 h-screen-50 py-8 px-8">
-            <h1 class="font-bold text-4xl">
+                </div>
+        </nav>
+
+        <img class="object-cover w-screen h-screen-45 md:w-1/2" src="img/img-1.png" alt="">
+        <section class="bg-gray-300 h-screen-45 py-8 px-8 flex-grow md:w-1/2">
+            <h1 class="font-bold text-4xl md:pt-10">
                 Find a gift for your wife or girlfriend
             </h1>
             <p class="py-4">
@@ -41,6 +42,8 @@
             </p>
             <button class=" px-2 bg-orange-500 hover:bg-orange-500 text-white hover:text-white py-1 px-4 border border-orange-500 hover:border-transparent rounded">FIND GIFT NOW</button>
         </section>
+
+
     </header>
 
 
