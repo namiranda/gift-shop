@@ -21642,8 +21642,16 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 
-body p {
+.logo {
   font-family: 'Homemade Apple', cursive;
+}
+
+.h-screen-40 {
+  height: 40vh;
+}
+
+.h-screen-50 {
+  height: 50vh;
 }
 
 @media (min-width: 640px) {
