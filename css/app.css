@@ -21654,6 +21654,10 @@ body {
   height: 50vh;
 }
 
+.h-screen-60 {
+  height: 60vh;
+}
+
 .max-h-screen-50 {
   max-height: 50%;
 }
