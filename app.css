@@ -24,3 +24,7 @@ body {
 .max-h-screen-50 {
     max-height: 50%;
 }
+
+.max-h-screen-90 {
+    max-height: 90vh;
+}
